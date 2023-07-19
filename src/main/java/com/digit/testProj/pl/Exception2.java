@@ -5,7 +5,7 @@ import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Exception2 {
-	public static void main(String[] args) {
+	public static void main(String[] args) throws Exceptionsss {
 		 try {
 			 Scanner sc = new Scanner(System.in);
 			 System.out.println("Division Operation");
@@ -38,7 +38,7 @@ public class Exception2 {
 		 catch(NullPointerException|InputMismatchException e5) {
 			 System.out.println("InputrelatedException");
 		 }
-		 catch(Exception e) {
+		 catch(Exceptionsss e) {
 			 System.out.println("Exception handled by generic catch");
 		 }
 	}

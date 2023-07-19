@@ -3,7 +3,7 @@ package com.digit.testProj.pl;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class Exception {
+public class Exceptionsss {
 public static void main(String[] args) {
 	 try {
 		 Scanner sc = new Scanner(System.in);
@@ -42,7 +42,7 @@ public static void main(String[] args) {
 	 catch(NullPointerException e5) {
 		 System.out.println("NullPointerException");
 	 }
-	 catch(Exception e) {
+	 catch(Exceptionsss e) {
 		 System.out.println("Exception handled by generic catch");
 	 }
 	 
